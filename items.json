@@ -1,0 +1,106 @@
+[
+	{
+		"name": "meaty chunks",
+		"value": 1000,
+		"source": [ "fauna kill", "cook" ],
+		"ingredients": "meat flakes",
+		"category": "meat"
+	},
+	{
+		"name": "carbon",
+		"value": 12,
+		"source": "harvest"
+	},
+	{
+		"name": "feline liver",
+		"value": 1400,
+		"source": "fauna kill"
+	},
+	{
+		"name": "mordite",
+		"value": 40,
+		"source": "fauna kill"
+	},
+	{
+		"name": "hexaberry",
+		"value": 1600,
+		"source": "flora harvest"
+	},
+	{
+		"name": "heptaploid wheat",
+		"value": 800,
+		"source": "flora harvest"
+	},
+	{
+		"name": "sweetroot",
+		"value": 800,
+		"source": "flora harvest"
+	},
+	{
+		"name": "impulse beans",
+		"value": 800,
+		"source": "flora harvest"
+	},
+	{
+		"name": "larva core",
+		"value": 69875,
+		"source": "harvest"
+	},
+	{
+		"name": "ground meat",
+		"value": 800,
+		"source": "cook",
+		"ingredients": [ "meaty chunks", "mordite" ],
+		"category": "meat"
+	},
+	{
+		"name": "processed meat",
+		"value": 2100,
+		"source": "cook",
+		"ingredients": [ [ "meaty chunks" ], [ "feline liver" ] ],
+		"category": "meat"
+	},
+	{
+		"name": "mystery meat stew",
+		"value": 6400,
+		"source": "cook",
+		"ingredients": [ "meat", "meat" ]
+	},
+	{
+		"name": "steamed vegetables",
+		"value": 1800,
+		"source": "cook",
+		"ingredients": "hexaberry"
+	},
+	{
+		"name": "meat flakes",
+		"value": 800,
+		"source": "cook",
+		"ingredients": "mordite"
+	},
+	{
+		"name": "refined flour",
+		"value": 1800,
+		"source": "cook",
+		"ingredients": "heptaploid wheat"
+	},
+	{
+		"name": "creature pellets",
+		"value": 20,
+		"source": [ "cook", "craft" ],
+		"ingredients": "carbon"
+	},
+	{
+		"name": "smoked meat",
+		"value": 2200,
+		"source": "cook",
+		"ingredients": [ "meat", "carbon" ],
+		"category": "meat"
+	},
+	{
+		"name": "baked eggs",
+		"value": 2200,
+		"source": "cook",
+		"ingredients": "larva core"
+	}
+]
